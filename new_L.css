@@ -1,0 +1,127 @@
+ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* padding-inline: 20px; */
+}
+a{
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 10px;
+    color: white;
+
+}
+#parent{
+    width:80%;
+  height: 30vh;
+    /* border: 1px solid red; */
+    margin: auto;
+    
+   padding: 20px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#T2{
+    /* border: 2px solid red; */
+    width: 50%;
+   
+}
+body{
+    background-color: hsl(212.9deg 99.2% 49.02%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    vertical-align: middle;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgb(91, 90, 153);
+}
+#last{
+    background-color: red;
+    
+}
+
+
+#main{
+    height: 65vh;
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: auto;
+ display: flex;
+ justify-content: space-between;
+}
+#aHalf{
+    input{
+        width:200px;
+       border-radius: 25px;
+       padding-block: 10px;
+       border: none;
+       
+    }
+    #pHolder{
+        padding-left: 15px;
+    }
+    #searching{
+        width:100px;
+       border-radius: 25px;
+       padding-block: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+        margin-left: -35px;
+    }
+}
+#bHalf{
+    display: flex;
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 250px;
+    background-color: hsl(60deg 10% 96.08%);
+    border-radius: 20px;
+    
+  
+
+}
+ 
+  
+   #discount{
+    background-color: rgb(197, 68, 68);
+    width: 40px;
+    height: 30px;
+    border-radius: 80px;
+    padding-inline: 13px;
+    padding-block: 18px;
+    text-align: center;
+    margin-top: -39px;
+    margin-inline: -22px;
+    font-weight: bold;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+
+#dollar{
+    background-color: blue;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-inline: 10px;
+    margin-top: 50px;
+    padding-block: 5;
+    
+}
+
+
+
+
+
